@@ -1,0 +1,19 @@
+Package: fewster
+Version: 0.0.0.9000
+Title: Fits Generalized Additive Models to Wildlife Census Data
+Description: This package contains the R code used in the paper
+    "Analysis of population trends for farmland birds using generalized additive models",
+    by R.M. Fewster, S.T. Buckland, G.M. Siriwardena, S.R. Baillie, and J.D. Wilson. (2000)
+    <doi: https://doi.org/10.1890/0012-9658(2000)081[1970:AOPTFF]2.0.CO;2>
+Authors@R: c(person("Rachel", "Fewster", email = "r.fewster@auckland.ac.nz", role = "aut"),
+             person("Scott", "Large", role = c("ctb", "cre"), email = "scott.large@noaa.gov"))
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Suggests: 
+    testthat
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
+Imports: 
+    mgcv
